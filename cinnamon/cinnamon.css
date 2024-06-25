@@ -238,7 +238,7 @@ StScrollBar StButton#hhandle:focus {
   border-color: rgba(32, 32, 32, 0);
   spacing: 0.5em; }
   .popup-menu-item:active {
-    background-color: #874e03;
+    background-color: #B8860B;
     color: #ffffff;
     border-color: #202020; }
   .popup-menu-item:insensitive {
@@ -304,9 +304,9 @@ StScrollBar StButton#hhandle:focus {
  * ===================================================================*/
 
 #panel {
-  background-color: rgba(0, 0, 0, 0.65);
-  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 1);
-  outline: 1px rgba(0, 0, 0, 0.95);
+  background-color: rgba(31, 27, 22, 0.85);
+  /*box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 1);
+  outline: 1px rgba(0, 0, 0, 0.95);*/
   color: #ffffff;
   font-size: 9pt;
   height: 40px;
@@ -329,11 +329,11 @@ StScrollBar StButton#hhandle:focus {
 }
 
 #panelLeft .applet-box:first-child:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(181, 169, 153, 0.1);
 }
 
 #panelLeft .applet-box:first-child:active {
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(181, 169, 153, 0.25);
 }
 
 #panelLeft:ltr {
@@ -367,7 +367,7 @@ StScrollBar StButton#hhandle:focus {
 }
 
 #panel:highlight {
-  background-color: #874e03;
+  background-color: #B8860B;
 }
 
 .panel-status-button,
@@ -381,9 +381,9 @@ StScrollBar StButton#hhandle:focus {
 
 .panel-status-button:hover,
 .panel-button:hover {
-  background-color: #874e03;
+  background-color: #B8860B;
   border-radius: 0px;
-  color: #874e03;
+  color: #B8860B;
   box-shadow: inset 0px -1px 0px 0px rgba(135, 78, 3, 1);
   transition-duration: 100;
 }
@@ -409,7 +409,7 @@ StScrollBar StButton#hhandle:focus {
   width: 23em;
   height: 1.4em;
   font-size: 11pt;
-  selection-background-color: #874e03;
+  selection-background-color: #B8860B;
   color: #282828;
   selected-color: #ffffff;
   border: 0.1em solid #202020;
@@ -510,7 +510,7 @@ StScrollBar StButton#hhandle:focus {
   caret-size: 1px;
   border-color: transparent;
   background-color: rgba(255, 255, 255, 0.85);
-  selection-background-color: #874e03;
+  selection-background-color: #B8860B;
 }
 
 .window-close-area {
@@ -797,7 +797,7 @@ StScrollBar StButton#hhandle:focus {
   font-weight: normal;
   caret-size: 1px;
   selected-color: #ffffff;
-  selection-background-color: #874e03;
+  selection-background-color: #B8860B;
   padding: 4px 12px 3px 12px;
 }
 
@@ -815,7 +815,7 @@ StScrollBar StButton#hhandle:focus {
   font-weight: normal;
   caret-size: 1px;
   selected-color: #ffffff;
-  selection-background-color: #874e03;
+  selection-background-color: #B8860B;
   padding: 4px 12px 3px 12px;
 }
 
@@ -1260,7 +1260,7 @@ StScrollBar StButton#hhandle:focus {
   font-weight: normal;
   caret-size: 1px;
   selected-color: #ffffff;
-  selection-background-color: #874e03;
+  selection-background-color: #B8860B;
   padding: 4px 12px 3px 12px;
 }
 
@@ -1278,7 +1278,7 @@ StScrollBar StButton#hhandle:focus {
   font-weight: normal;
   caret-size: 1px;
   selected-color: #ffffff;
-  selection-background-color: #874e03;
+  selection-background-color: #B8860B;
   padding: 4px 12px 3px 12px;
 }
 
@@ -1428,20 +1428,20 @@ StScrollBar StButton#hhandle:focus {
  * ===================================================================*/
 
  .menu-background {
-  background-color: rgba(0, 0, 0, 0.65);;
+  background-color: rgba(31, 27, 22, 0.85);;
   border: 1px solid #202020; }
 
 /* Main menu title */
 .menu-favorites-box {
   padding: 5px;
-  background-color: #232323;
+  background-color: #47423C;
   border: 1px solid #202020;
   border-radius: 6px; }
 
 .menu-favorites-button {
   padding: 0.5em; }
   .menu-favorites-button:hover {
-    color: #874e03;
+    color: #B8860B;
     background-color: rgba(100, 100, 100, 0.5);
     border-radius: 6px; }
 
@@ -1463,7 +1463,7 @@ StScrollBar StButton#hhandle:focus {
 .menu-application-button-selected {
   padding: 7px;
   color: #ffffff;
-  background-color: #874e03;
+  background-color: #B8860B;
   border: 1px solid #202020;
   border-radius: 6px; }
   .menu-application-button-selected:highlighted {
@@ -1495,10 +1495,10 @@ StScrollBar StButton#hhandle:focus {
   color: #ffffff;
   border-left: 2px;
   border-style: solid;
-  border-color: #874e03; }
+  border-color: #B8860B; }
 
 .menu-category-button-hover {
-  background-color: #874e03;
+  background-color: #B8860B;
   border-radius: 6px; }
 
 .menu-category-button-label:ltr {
@@ -1682,8 +1682,8 @@ StScrollBar StButton#hhandle:focus {
 
 .grouped-window-list-thumbnail-menu .item-box:selected {
   color: #ffffff;
-  background-color: #874e03;
-  border: 0px solid #874e03;
+  background-color: #B8860B;
+  border: 0px solid #B8860B;
 }
 
 /* ===================================================================
