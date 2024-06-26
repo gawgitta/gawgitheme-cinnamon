@@ -745,7 +745,7 @@ StScrollBar StButton#hhandle:focus {
 
 #notification {
   font-size: 10pt;
-  background-color: rgba(30, 30, 30, 0.96);
+  background-color: rgba(72, 53, 4, 0.95);
   padding: 8px 8px 8px 8px;
   spacing-rows: 10px;
   spacing-columns: 10px;
@@ -830,7 +830,7 @@ StScrollBar StButton#hhandle:focus {
 
 .switcher-list {
   border-image: url("background-assets/popup.svg") 7;
-  color: #ffffff;
+  color: #b5a999;
   padding: 20px;
   font-size: 9pt;
   font-weight: normal;
@@ -866,8 +866,8 @@ StScrollBar StButton#hhandle:focus {
 }
 
 .switcher-list .item-box:selected {
-  border-color: #ffffff;
-  color: #ffffff;
+  border-color: #b8860b;
+  color: #b8860b;
 }
 
 .switcher-list .thumbnail-box {
@@ -896,7 +896,7 @@ StScrollBar StButton#hhandle:focus {
 
 .switcher-arrow {
   border-color: rgba(0, 0, 0, 0);
-  color: #ffffff;
+  color: #b8860b;
 }
 
 .switcher-arrow:highlighted {
