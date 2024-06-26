@@ -2172,7 +2172,7 @@ GtkColorButton.button {
  * header-bar *
  **************/
 .header-bar {
-    padding: 4px;
+    padding: 0px;
     border-width: 0 0 1px 0;
     border-style: solid;
     border-color: shade(@titlebar_bg_color, 0.8);
@@ -3765,4 +3765,47 @@ GtkBubbleWindow .toolbar {
   .overlay-bar GtkLabel {
     color: @tooltip_fg_color; }
 
+/* headerbar colors */
+@define-color active_window_fg_color #483504;
+@define-color active_window_bg_color #483504;
+@define-color inactive_window_fg_color #1f1b16;
+@define-color inactive_window_bg_color #1f1b16;
+headerbar {
+    box-shadow: none;
+}
 
+headerbar:not(:backdrop),
+headerbar:not(:backdrop) button:not(:backdrop) {
+    color: #ffffff;
+    background-color: #483504;
+    background-image: none;
+    border-color: #483504;
+    text-shadow: none;
+    -gtk-icon-shadow: none;
+}
+
+headerbar:backdrop,
+headerbar:backdrop button:backdrop {
+    color: #ffffff;
+    background-color: #1f1b16;
+    background-image: none;
+    border-color: #1f1b16;
+}
+
+headerbar button.titlebutton:not(:backdrop) {
+  color: #ffffff;
+}
+
+headerbar button.titlebutton:backdrop {
+  color: #ffffff;
+}
+
+headerbar button:hover:not(:backdrop){
+  color: #483504;
+  background-color: #ffffff;
+}
+
+headerbar button:hover:backdrop {
+  color: #1f1b16;
+  background-color: #ffffff;
+}
